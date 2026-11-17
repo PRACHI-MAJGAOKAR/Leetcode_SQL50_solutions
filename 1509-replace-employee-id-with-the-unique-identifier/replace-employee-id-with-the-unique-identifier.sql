@@ -1,4 +1,6 @@
 # Write your MySQL query statement below
-select u.unique_id, e.name
+select eu.unique_id, e.name
 from employees e
-left join employeeuni u using (id)
+left join employeeUNI eu
+using(id)
+
